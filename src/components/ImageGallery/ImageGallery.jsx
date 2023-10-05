@@ -1,5 +1,5 @@
 import css from './ImageGallery.module.css';
 
-export const ImageGallery = ({ children }) => {
+export function ImageGallery({ children }) {
   return <ul className={css.ImageGallery}>{children}</ul>;
-};
+}

@@ -1,6 +1,6 @@
 import css from './Button.module.css';
 
-export const Button = ({ onBtnClick }) => {
+export function Button({ onBtnClick }) {
   return (
     <div className={css.container}>
       <button onClick={onBtnClick} className={css.button}>
@@ -8,4 +8,4 @@ export const Button = ({ onBtnClick }) => {
       </button>
     </div>
   );
-};
+}

@@ -1,6 +1,6 @@
 import css from './ImageGalleryItem.module.css';
 
-export const ImageGalleryItem = ({ photos, onClick }) => {
+export function ImageGalleryItem({ photos, onClick }) {
   return photos.map(photo => (
     <li key={photo.id} className={css.ImageGalleryItem}>
       <img
@@ -11,4 +11,4 @@ export const ImageGalleryItem = ({ photos, onClick }) => {
       />
     </li>
   ));
-};
+}
