@@ -1,5 +1,5 @@
 import { ToastContainer } from 'react-toastify';
-import React, { Component, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { fetchPixabay } from 'services/api-pixabay';
 import { toast } from 'react-toastify';
 import { Modal } from './Modal/Modal';
